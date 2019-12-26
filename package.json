@@ -1,6 +1,6 @@
 {
     "name": "is-device-mobile",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "A utility to determine whether the client's device is mobile or not",
     "main": "dist/isMobile.js",
     "module": "dist/isMobile.es.js",
