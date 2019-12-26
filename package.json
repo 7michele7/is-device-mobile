@@ -30,7 +30,8 @@
         "media queries",
         "pointer",
         "orientation",
-        "devices"
+        "devices",
+        "userAgent"
     ],
     "author": "Michele Settepani <7michele7@gmail.com>",
     "license": "MIT",
