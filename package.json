@@ -1,0 +1,38 @@
+{
+	"name": "is-device-mobile",
+	"version": "1.0.0",
+	"description": "A utility to determine whether the device is mobile or not",
+	"main": "dist/isMobile.js",
+	"module": "dist/isMobile.es.js",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "rollup -c",
+		"test": "jest",
+		"lint": "eslint ./src"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "yarn test && yarn lint"
+		}
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Casumo/fe-toolkit-is-mobile.git"
+	},
+	"author": "Michele Settepani <7michele7@gmail.com>",
+	"license": "MIT",
+	"homepage": "https://github.com/Casumo/fe-toolkit-is-mobile#readme",
+	"devDependencies": {
+		"@babel/core": "^7.7.4",
+		"@babel/preset-env": "^7.7.4",
+		"eslint": "^6.7.1",
+		"husky": "^3.1.0",
+		"jest": "^24.9.0",
+		"prettier": "1.19.1",
+		"rollup": "^1.27.5",
+		"rollup-plugin-babel": "^4.3.3",
+		"rollup-plugin-terser": "^5.1.2"
+	}
+}
