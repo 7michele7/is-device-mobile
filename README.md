@@ -1,11 +1,11 @@
-# Frontend Toolkit - isMobile
+# Is Device Mobile?
 
 ## Installation
 
 Install the component in your project with the following command:
 
 ```Bash
-yarn add @casumo/fe-toolkit-ismobile
+yarn add is-device-mobile
 ```
 
 ## Usage
@@ -19,17 +19,6 @@ const getDeviceType = () => {
 ```
 
 In order to work, `isMobile` requires `window` as argument.
-
-## Contribution
-
-1. Open a PR
-2. Merge `master` into your branch
-3. Merge the PR once it got reviewed
-4. Checkout `master` and pull the latest version
-5. Bump version running `$ npm version <major|minor|patch>`
-6. Git push
-7. Login to NPM `$ npm login` if you already have an account, or create one running `npm adduser --registry http://npm.casumotest.local`
-8. Publish to NPM `$ npm publish --registry http://npm.casumotest.local`
 
 ## Resources
 
