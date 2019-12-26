@@ -11,7 +11,7 @@ yarn add is-device-mobile
 ## Usage
 
 ```JS
-import { isMobile } from '@casumo/fe-toolkit-ismobile';
+import { isMobile } from 'is-device-mobile';
 
 const getDeviceType = () => {
   return isMobile(window) ? "mobile" : "desktop";
