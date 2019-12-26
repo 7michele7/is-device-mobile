@@ -1,5 +1,10 @@
 # Is Device Mobile?
 
+## Background
+
+We often need to change _functionality_ / _behavior_ / _layout_ whether the client's device is mobile or desktop.
+This tiny utility will help determining it checking `maxTouchPoints` (or `msMaxTouchPoints`), `(pointer:coarse)` Media Queries, `orientation` or, as last resort, `userAgent`.
+
 ## Installation
 
 Install the component in your project with the following command:
